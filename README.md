@@ -1,5 +1,13 @@
-# Arena.ai Telegram Bot
+# Arena.ai Telegram Bot (Fixed Build)
 
-See instructions in chat.
-# arena_bot
+## Setup
+pip install -r requirements.txt
+playwright install chromium
+cp .env.example .env
+
+## Run
+python main.py
+
+## Notes
+- OAuth should be done once locally if Google blocks headless auth
 # arena_bot
